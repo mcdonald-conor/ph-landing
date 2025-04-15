@@ -1,0 +1,48 @@
+# Versioning and dependencies
+.git
+.github
+.gitignore
+node_modules
+.pnpm-store
+.pnp*
+
+# Build files
+.next
+out
+dist
+build
+.vercel
+.output
+
+# Environment
+.env*
+!.env.example
+
+# Testing
+coverage
+.coverage
+.nyc_output
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editors
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# Misc
+README.md
+LICENSE
+.dockerignore
+docker-compose*
